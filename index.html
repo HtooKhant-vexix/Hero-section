@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <title>Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!--nav-->
+<div class="container position-sticky top-0">
+    <div class="row bg-white">
+        <div class="col navtext">
+            <nav class="navbar navbar-expand-lg bg-white py-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-5" href="#">
+                        <img src="./images/logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fa fa-solid fa-bars fs-2"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse mt-2 m-lg-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown mx-2 text-center rounded-top p-lg-0">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Features
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown mx-2 text-center p-lg-0 ">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Company
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-2 text-center p-lg-0">
+                                <a class="nav-link active" aria-current="page" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center rounded-bottom p-lg-0">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex flex-column flex-lg-row" role="search">
+                            <button class="btn btn-outline-primary border-0  mx-lg-4" type="submit">Login</button>
+                            <button class="btn btn-outline-primary mt-lg-0 mt-3" type="submit">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="container min-vh-100 mt-5">
+    <div class="row justify-content-center align-items-center text-center text-lg-start">
+<!--        mobile img-->
+        <div class="col d-block d-lg-none mb-5 pb-5">
+            <img src="images/image-hero-mobile.png" class="w-100" alt="">
+        </div>
+<!--        text-->
+        <div class="col-sm-12 col-lg-6 col-xl-5">
+            <h1 class="display-2 fw-bold mb-4">Make <br> remote work</h1>
+            <p class="text-black-50 w-75 font mx-auto m-lg-0">Get your team in sync, no matter you location.Streaming processes, creat teams rituals and watch productivity soar.</p>
+            <button class="btn btn-dark my-4">Learn more</button>
+<!--            logo-->
+            <div class="row mt-5 pt-3 pb-3">
+                <div class="col py-2">
+                    <img src="./images/client-databiz.svg" alt="">
+                </div>
+                <div class="col py-2">
+                    <img src="./images/client-audiophile.svg" alt="">
+                </div>
+                <div class="col py-2">
+                    <img src="./images/client-meet.svg" alt="">
+                </div>
+                <div class="col py-2">
+                    <img src="./images/client-maker.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-1 d-none d-xl-block"></div>
+<!--        img-->
+        <div class="col-lg-6 col-xl-5 d-lg-block d-none">
+            <img src="./images/image-hero-desktop.png" class="w-100" alt="">
+        </div>
+
+    </div>
+</div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

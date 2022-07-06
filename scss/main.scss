@@ -1,0 +1,14 @@
+$primary: hsl(0, 0%, 41%);
+$font-family-sans-serif: 'Epilogue', sans-serif;
+$btn-padding-x: 20px;
+$btn-padding-y: 10px;
+$btn-border-radius: 13px;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500;700&family=Roboto&display=swap');
+
+.font{
+  font-size: 18px;
+}
